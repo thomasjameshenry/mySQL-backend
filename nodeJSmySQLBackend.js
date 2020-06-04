@@ -2,10 +2,10 @@
 //Thomas Henry 16351326 Assignment 04
 var mysql = require('mysql');
 var con = mysql.createConnection({
-  host: "remotemysql.com",
-  user: "gnkfLSJ8pK",
-  password: "jvLqsMw0R3",
-  database: "gnkfLSJ8pK"
+  host: "remotemysql.com", //for remote server use
+  user: "XXXXXXXXXXXXX",
+  password: "XXXXXXXXXXXX",
+  database: "XXXXXXXXXx"
 });
 con.connect();
 console.log("connected");
